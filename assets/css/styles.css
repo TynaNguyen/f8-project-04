@@ -654,7 +654,7 @@ header {
 .service-body {
     margin-top: 71px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 86px;
 }
 
@@ -754,7 +754,7 @@ header {
     bottom: 0px;
     right: 16px;
     left: 16px;
-    height: 50%;
+    height: 55%;
     background: linear-gradient(180deg, #9df1fb 0%, #73d0db 100%);
     border-radius: 10px;
 }
