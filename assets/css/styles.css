@@ -139,7 +139,7 @@ header {
 /* =========== hero ========== */
 
 .hero {
-    height: calc(100vh - 102px);
+    /* height: calc(100vh - 102px); */
     padding: 74px;
     background: var(--primary-color);
 }
