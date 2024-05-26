@@ -644,6 +644,10 @@ header {
     text-align: center;
 }
 
+.service__title {
+    margin-top: 15px;
+}
+
 .service__desc {
     color: #5e6085;
     font-size: 1.6rem;
