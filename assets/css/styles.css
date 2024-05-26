@@ -155,7 +155,7 @@ header {
 
 .hero-card {
     position: relative;
-    width: 80%;
+    width: 388px;
 }
 
 .hero-card__cat {
@@ -293,7 +293,7 @@ header {
 .hero-card__info {
     position: absolute;
     top: 92%;
-    left: 30%;
+    left: 35%;
     z-index: 3;
     background-color: #fff;
     box-shadow: -17px 14px 68px -4px rgba(207.43, 173.91, 132.02, 0.25);
