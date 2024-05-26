@@ -661,8 +661,13 @@ header {
 .service-column {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: end;
     gap: 24px;
+}
+
+.service-column:nth-of-type(2) {
+    gap: 45px;
+    translate: 0 5%;
 }
 
 .service-column:nth-child(2) {
@@ -674,7 +679,6 @@ header {
     display: block;
     width: 100%;
     z-index: 1;
-    translate: 0 95px;
 }
 
 .service-detail {
@@ -740,10 +744,14 @@ header {
     rotate: 0deg;
 }
 
+.service-background {
+    position: relative;
+}
+
 .service-background::after {
     content: "";
     position: absolute;
-    bottom: 77px;
+    bottom: 0px;
     right: 16px;
     left: 16px;
     height: 50%;
@@ -755,8 +763,7 @@ header {
     padding: 20px 40px;
     border-radius: 31px;
     border: 1px #ff5b2e solid;
-    margin: 45px 95px;
-    translate: 0 56px;
+    margin: 0 auto;
     min-width: 214px;
     transition: box-shadow 0.3s ease-in-out;
     color: #ff5b2e;
@@ -975,7 +982,7 @@ header {
 
 .choice-body {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     gap: 44px;
     margin-top: 56px;
 }
@@ -1018,6 +1025,12 @@ header {
     color: #ff5b2e;
     font-size: 1.6rem;
     font-weight: 500;
+    transition: 0.3 ease-in-out;
+}
+
+.choice__btn:hover {
+    background-color: var(--secondary-color);
+    color: #fff;
 }
 
 .choice-detail {
@@ -1189,7 +1202,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 512px;
+    gap: 50px;
 }
 
 .blog-column {
@@ -1201,6 +1214,7 @@ header {
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 30px;
+    max-width: 350px;
 }
 
 .blog__title {
