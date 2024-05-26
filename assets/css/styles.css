@@ -155,7 +155,7 @@ header {
 
 .hero-card {
     position: relative;
-    display: flex;
+    width: 80%;
 }
 
 .hero-card__cat {
@@ -164,7 +164,6 @@ header {
     justify-content: center;
     background: #fe997b;
     overflow: hidden;
-    width: 85%;
     height: 488px;
     border-radius: 16px;
     border: 1px solid #fff;
@@ -177,7 +176,7 @@ header {
 }
 
 .hero-card__cat--icon-1 {
-    right: 22%;
+    right: -15%;
     top: 5%;
     z-index: 1;
 }
@@ -192,24 +191,23 @@ header {
 }
 
 .hero-card__dog {
-    align-self: flex-end;
     display: flex;
-    justify-content: center;
+    align-items: end;
     background: linear-gradient(206deg, #faa7ad 0%, #e87f8a 100%);
     box-shadow: 8px 18px 36px -6px rgba(233.99, 147.95, 157.05, 0.17);
     border-radius: 16px;
     border: 2px rgba(255, 255, 255, 0.65) solid;
-    overflow: hidden;
     z-index: 1;
-    translate: -13% 35%;
     height: 244px;
     width: 45%;
+    position: absolute;
+    right: -40%;
+    bottom: -9%;
 }
 
 .hero-card__dog--dog {
     width: 100%;
     object-fit: contain;
-    translate: 0 20px;
 }
 
 .hero__title {
@@ -295,7 +293,7 @@ header {
 .hero-card__info {
     position: absolute;
     top: 92%;
-    left: 16%;
+    left: 30%;
     z-index: 3;
     background-color: #fff;
     box-shadow: -17px 14px 68px -4px rgba(207.43, 173.91, 132.02, 0.25);
